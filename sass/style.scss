@@ -408,9 +408,7 @@ h1, h2, h3, h4, h5, h6, figure {
 	.display-t,
 	.display-tc {
 		height: 900px;
-		display: table-cell;
-		vertical-align: middle;
-		text-align: center;
+		display: table;
 		width: 100%;
 		@media screen and (max-width: $screen-sm) {
 			height: 600px;
